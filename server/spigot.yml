@@ -47,7 +47,7 @@ advancements:
   - minecraft:story/disabled
 world-settings:
   default:
-    below-zero-generation-in-existing-chunks: true
+    below-zero-generation-in-existing-chunks: false
     view-distance: default
     simulation-distance: default
     thunder-chance: 100000

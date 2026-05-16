@@ -1,0 +1,304 @@
+[15:33:04] [ServerMain/INFO]: [bootstrap] Running Java 25 (OpenJDK 64-Bit Server VM 25.0.2+10-LTS; Microsoft Microsoft-13053558) on Linux 6.8.0-1044-azure (amd64)
+[15:33:04] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.4-224-main@0cf7315 (2025-04-07T12:01:39Z) for Minecraft 1.21.4
+[15:33:04] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[15:33:08] [ServerMain/INFO]: [PluginInitializerManager] Initialized 10 plugins
+[15:33:08] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (10):
+ - Essentials (2.21.2), EssentialsChat (2.21.2), IridiumSkyblock (4.1.5-b2), PermissionsEx (1.23.4), Terra (6.4.3-BETA+ab60f14ff), Vault (1.7.3-b131), ViaBackwards (5.9.1), ViaRewind (4.1.1), ViaRewind-Legacy-Support (1.5.2), ViaVersion (5.9.1)
+[15:33:18] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[15:33:18] [ServerMain/INFO]: Found new data pack file/bukkit, loading it automatically
+[15:33:18] [ServerMain/INFO]: Found new data pack paper, loading it automatically
+[15:33:20] [ServerMain/INFO]: No existing world data, creating new world
+[15:33:22] [ServerMain/INFO]: Loaded 1370 recipes
+[15:33:22] [ServerMain/INFO]: Loaded 1481 advancements
+[15:33:22] [ServerMain/INFO]: [MCTypeRegistry] Initialising converters for DataConverter...
+[15:33:23] [ServerMain/INFO]: [MCTypeRegistry] Finished initialising converters for DataConverter in 516.4ms
+[15:33:23] [Server thread/INFO]: Starting minecraft server version 1.21.4
+[15:33:23] [Server thread/WARN]: ****************************
+[15:33:23] [Server thread/WARN]: YOU ARE RUNNING THIS SERVER AS AN ADMINISTRATIVE OR ROOT USER. THIS IS NOT ADVISED.
+[15:33:23] [Server thread/WARN]: YOU ARE OPENING YOURSELF UP TO POTENTIAL RISKS WHEN DOING THIS.
+[15:33:23] [Server thread/WARN]: FOR MORE INFORMATION, SEE https://madelinemiller.dev/blog/root-minecraft-server/
+[15:33:23] [Server thread/WARN]: ****************************
+[15:33:23] [Server thread/INFO]: Loading properties
+[15:33:23] [Server thread/INFO]: This server is running Paper version 1.21.4-224-main@0cf7315 (2025-04-07T12:01:39Z) (Implementing API version 1.21.4-R0.1-SNAPSHOT)
+[15:33:23] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[15:33:23] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[15:33:23] [Server thread/INFO]: Using 4 threads for Netty based IO
+[15:33:25] [Server thread/INFO]: [MoonriseCommon] Paper is using 1 worker threads, 1 I/O threads
+[15:33:25] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using population gen parallelism: true
+[15:33:25] [Server thread/INFO]: Default game type: SURVIVAL
+[15:33:25] [Server thread/INFO]: Generating keypair
+[15:33:25] [Server thread/INFO]: Starting Minecraft server on *:25565
+[15:33:25] [Server thread/INFO]: Using epoll channel type
+[15:33:26] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[15:33:26] [Server thread/INFO]: Paper: Using OpenSSL 3.x.x (Linux x86_64) cipher from Velocity.
+[15:33:28] [Server thread/INFO]: [com.dfsek.terra.AbstractPlatform] Initializing Terra...
+[15:33:28] [Server thread/INFO]: [com.dfsek.terra.AbstractPlatform] Loading config.yml
+[15:33:28] [Server thread/INFO]: [com.dfsek.terra.config.PluginConfigImpl] Loading config values from config.yml
+[15:33:29] [Server thread/INFO]: [com.dfsek.terra.AbstractPlatform] Loading 37 Terra addons:
+        - biome-provider-extrusion@1.0.0-BETA+ab60f14ff
+        - biome-provider-image@1.0.1-BETA+ab60f14ff
+        - biome-provider-image-v2@1.0.1-BETA+ab60f14ff
+        - biome-provider-pipeline@1.0.2-BETA+ab60f14ff
+        - biome-provider-pipeline-v2@1.0.1-BETA+ab60f14ff
+        - biome-provider-single@1.0.0-BETA+ab60f14ff
+        - biome-query-api@1.0.0-BETA+ab60f14ff
+        - chunk-generator-noise-3d@1.2.1-BETA+ab60f14ff
+        - command-addons@1.0.0-BETA+ab60f14ff
+        - command-packs@1.0.0-BETA+ab60f14ff
+        - command-profiler@1.0.0-BETA+ab60f14ff
+        - command-structures@1.0.0-BETA+ab60f14ff
+        - config-biome@1.0.0-BETA+ab60f14ff
+        - config-distributors@1.0.1-BETA+ab60f14ff
+        - config-feature@1.0.0-BETA+ab60f14ff
+        - config-flora@1.0.1-BETA+ab60f14ff
+        - config-locators@1.1.1-BETA+ab60f14ff
+        - config-noise-function@1.1.0-BETA+ab60f14ff
+        - config-number-predicate@1.0.0-BETA+ab60f14ff
+        - config-ore@1.1.1-BETA+ab60f14ff
+        - config-palette@1.0.0-BETA+ab60f14ff
+        - config-structure@1.0.1-BETA+ab60f14ff
+        - generation-stage-feature@1.1.0-BETA+ab60f14ff
+        - generation-stage-structure@1.0.0-BETA+ab60f14ff
+        - language-yaml@1.0.0-BETA+ab60f14ff
+        - library-image@1.1.0-BETA+ab60f14ff
+        - locator-slant-noise-3d@1.0.0-BETA+ab60f14ff
+        - palette-block-shortcut@1.0.0-BETA+ab60f14ff
+        - pipeline-image@1.0.0-BETA+ab60f14ff
+        - structure-block-shortcut@1.0.0-BETA+ab60f14ff
+        - structure-function-check-noise-3d@1.0.1-BETA+ab60f14ff
+        - structure-mutator@0.1.0-BETA+ab60f14ff
+        - structure-sponge-loader@1.0.0-BETA+ab60f14ff
+        - structure-terrascript-loader@1.2.0-BETA+ab60f14ff
+        - terra@1.0.0
+        - terra-bukkit@1.0.0
+        - terrascript-function-sampler@1.0.0-BETA+ab60f14ff
+[15:33:29] [Server thread/INFO]: [com.dfsek.terra.AbstractPlatform] Terra addons successfully loaded.
+[15:33:29] [Server thread/INFO]: [com.dfsek.terra.AbstractPlatform] Finished initialization.
+[15:33:29] [Server thread/WARN]: [org.bukkit.craftbukkit.legacy.CraftLegacy] Initializing Legacy Material Support. Unless you have legacy plugins and/or data this is a bug!
+[15:33:41] [Server thread/WARN]: Legacy plugin PermissionsEx v1.23.4 does not specify an api-version.
+[15:33:41] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v5.9.1
+[15:33:41] [Server thread/INFO]: [ViaVersion] ViaVersion 5.9.1 is now loaded. Registering protocol transformers and injecting...
+[15:33:42] [Via-Mappingloader-1/INFO]: [ViaVersion] Loading block connection mappings ...
+[15:33:43] [Server thread/INFO]: [ViaBackwards] Loading translations...
+[15:33:43] [Server thread/INFO]: [ViaBackwards] Registering protocols...
+[15:33:43] [Server thread/INFO]: [ViaRewind] Registering protocols...
+[15:33:43] [Server thread/INFO]: [ViaBackwards] Loading server plugin ViaBackwards v5.9.1
+[15:33:43] [Server thread/INFO]: [Vault] Loading server plugin Vault v1.7.3-b131
+[15:33:43] [Server thread/INFO]: [ViaRewind] Loading server plugin ViaRewind v4.1.1
+[15:33:43] [Server thread/INFO]: [Essentials] Loading server plugin Essentials v2.21.2
+[15:33:43] [Server thread/INFO]: [Terra] Loading server plugin Terra v6.4.3-BETA+ab60f14ff
+[15:33:43] [Server thread/INFO]: [ViaRewind-Legacy-Support] Loading server plugin ViaRewind-Legacy-Support v1.5.2
+[15:33:43] [Server thread/INFO]: [PermissionsEx] Loading server plugin PermissionsEx v1.23.4
+[15:33:43] [Server thread/WARN]: [PermissionsEx] This server is in offline mode. Unless this server is configured to integrate with a supported proxy (see http://dft.ba/-8ous), UUIDs *may not be stable*!
+[15:33:43] [Server thread/INFO]: [EssentialsChat] Loading server plugin EssentialsChat v2.21.2
+[15:33:43] [Server thread/INFO]: [IridiumSkyblock] Loading server plugin IridiumSkyblock v4.1.5-b2
+[15:33:46] [Server thread/INFO]: [IridiumSkyblock] GENERATOR TYPE: VOID
+[15:33:47] [Server thread/INFO]: [IridiumSkyblock] Loading world generator...
+[15:33:47] [Server thread/INFO]: [IridiumSkyblock] Generator Type = VOID
+[15:33:47] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[15:33:47] [Server thread/INFO]: [Vault] Enabling Vault v1.7.3-b131
+[15:33:47] [Server thread/INFO]: [Vault] [Economy] Essentials Economy found: Waiting
+[15:33:47] [Server thread/INFO]: [Vault] [Permission] PermissionsEx found: Waiting
+[15:33:47] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
+[15:33:47] [Server thread/INFO]: [Vault] [Chat] PermissionsEx found: Waiting
+[15:33:47] [Server thread/INFO]: [Vault] Enabled Version 1.7.3-b131
+[15:33:47] [Server thread/INFO]: [ViaRewind] Enabling ViaRewind v4.1.1
+[15:33:47] [Server thread/INFO]: [Terra] Enabling Terra v6.4.3-BETA+ab60f14ff
+[15:33:47] [Server thread/ERROR]: [com.dfsek.terra.bukkit.util.VersionUtil] Error while parsing minecraft version info. Continuing launch, but setting all versions to -1.
+[15:33:47] [Server thread/INFO]: [com.dfsek.terra.bukkit.TerraBukkitPlugin] Running on Minecraft version Unknown with server implementation Paper.
+[15:33:47] [Server thread/INFO]: [com.dfsek.terra.AbstractPlatform] Loading config packs...
+[15:33:47] [Server thread/INFO]: [com.dfsek.terra.registry.master.ConfigRegistry] Loading ZIP archive: default.zip
+[15:33:48] [Server thread/INFO]: [com.dfsek.terra.config.pack.ConfigPackImpl] Loading config pack "OVERWORLD:OVERWORLD"
+[15:33:52] [Server thread/INFO]: [com.dfsek.terra.config.pack.ConfigPackImpl] Loaded config pack "OVERWORLD:OVERWORLD" v1.3.4 by Astrash, Sancires, Aureus in 5206.70224ms.
+[15:33:52] [Server thread/INFO]: [com.dfsek.terra.AbstractPlatform] Loaded packs.
+[15:33:52] [Server thread/ERROR]: Error occurred while enabling Terra v6.4.3-BETA+ab60f14ff (Is it up to date?)
+java.lang.ExceptionInInitializerError: null
+	at Terra-bukkit-6.4.3-BETA+ab60f14ff-shaded (1).jar/com.dfsek.terra.bukkit.TerraBukkitPlugin.onEnable(TerraBukkitPlugin.java:68) ~[Terra-bukkit-6.4.3-BETA+ab60f14ff-shaded (1).jar:?]
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:280) ~[paper-api-1.21.4-R0.1-SNAPSHOT.jar:?]
+	at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.enablePlugin(PaperPluginInstanceManager.java:202) ~[paper-1.21.4.jar:1.21.4-224-0cf7315]
+	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.enablePlugin(PaperPluginManagerImpl.java:109) ~[paper-1.21.4.jar:1.21.4-224-0cf7315]
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:520) ~[paper-api-1.21.4-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.craftbukkit.CraftServer.enablePlugin(CraftServer.java:657) ~[paper-1.21.4.jar:1.21.4-224-0cf7315]
+	at org.bukkit.craftbukkit.CraftServer.enablePlugins(CraftServer.java:606) ~[paper-1.21.4.jar:1.21.4-224-0cf7315]
+	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:278) ~[paper-1.21.4.jar:1.21.4-224-0cf7315]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1163) ~[paper-1.21.4.jar:1.21.4-224-0cf7315]
+	at net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:310) ~[paper-1.21.4.jar:1.21.4-224-0cf7315]
+	at java.base/java.lang.Thread.run(Thread.java:1474) ~[?:?]
+Caused by: java.lang.ArrayIndexOutOfBoundsException: Index 3 out of bounds for length 3
+	at Terra-bukkit-6.4.3-BETA+ab60f14ff-shaded (1).jar/com.dfsek.terra.bukkit.nms.Initializer.<clinit>(Initializer.java:11) ~[Terra-bukkit-6.4.3-BETA+ab60f14ff-shaded (1).jar:?]
+	... 11 more
+[15:33:52] [Server thread/INFO]: [Terra] Disabling Terra v6.4.3-BETA+ab60f14ff
+[15:33:52] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[15:33:52] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[15:33:52] [Server thread/WARN]: Whilst this makes it possible to use BungeeCord, unless access to your server is properly restricted, it also opens up the ability for hackers to connect with any username they choose.
+[15:33:52] [Server thread/WARN]: Please see http://www.spigotmc.org/wiki/firewall-guide/ for further information.
+[15:33:52] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[15:33:52] [Server thread/INFO]: Preparing level "world"
+[15:34:10] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[15:34:10] [Server thread/INFO]: Preparing spawn area: 2%
+[15:34:10] [Server thread/INFO]: Preparing spawn area: 2%
+[15:34:11] [Server thread/INFO]: Preparing spawn area: 2%
+[15:34:11] [Server thread/INFO]: Preparing spawn area: 2%
+[15:34:12] [Server thread/INFO]: Preparing spawn area: 2%
+[15:34:12] [Server thread/INFO]: Preparing spawn area: 2%
+[15:34:14] [Server thread/INFO]: Preparing spawn area: 2%
+[15:34:14] [Server thread/INFO]: Preparing spawn area: 2%
+[15:34:14] [Server thread/INFO]: Preparing spawn area: 2%
+[15:34:14] [Server thread/INFO]: Preparing spawn area: 2%
+[15:34:15] [Server thread/INFO]: Preparing spawn area: 2%
+[15:34:15] [Server thread/INFO]: Preparing spawn area: 6%
+[15:34:16] [Server thread/INFO]: Preparing spawn area: 18%
+[15:34:16] [Server thread/INFO]: Preparing spawn area: 18%
+[15:34:17] [Server thread/INFO]: Preparing spawn area: 18%
+[15:34:17] [Server thread/INFO]: Preparing spawn area: 18%
+[15:34:18] [Server thread/INFO]: Preparing spawn area: 18%
+[15:34:18] [Server thread/INFO]: Preparing spawn area: 44%
+[15:34:19] [Server thread/INFO]: Preparing spawn area: 51%
+[15:34:19] [Server thread/INFO]: Preparing spawn area: 53%
+[15:34:20] [Server thread/INFO]: Preparing spawn area: 53%
+[15:34:20] [Server thread/INFO]: Preparing spawn area: 53%
+[15:34:21] [Server thread/INFO]: Preparing spawn area: 65%
+[15:34:21] [Server thread/INFO]: Time elapsed: 11497 ms
+[15:34:21] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[15:34:21] [Server thread/INFO]: Preparing spawn area: 2%
+[15:34:22] [Server thread/INFO]: Preparing spawn area: 2%
+[15:34:22] [Server thread/INFO]: Preparing spawn area: 2%
+[15:34:23] [Server thread/INFO]: Preparing spawn area: 12%
+[15:34:23] [Server thread/INFO]: Preparing spawn area: 18%
+[15:34:24] [Server thread/INFO]: Preparing spawn area: 30%
+[15:34:24] [Server thread/INFO]: Preparing spawn area: 59%
+[15:34:25] [Server thread/INFO]: Preparing spawn area: 87%
+[15:34:25] [Server thread/INFO]: Time elapsed: 3524 ms
+[15:34:25] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[15:34:25] [Server thread/INFO]: Preparing spawn area: 2%
+[15:34:26] [Server thread/INFO]: Preparing spawn area: 18%
+[15:34:26] [Server thread/INFO]: Preparing spawn area: 18%
+[15:34:26] [Server thread/INFO]: Time elapsed: 1269 ms
+[15:34:26] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v5.9.1
+[15:34:26] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.21.4 (769)
+[15:34:26] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v5.9.1
+[15:34:26] [Server thread/INFO]: [Essentials] Enabling Essentials v2.21.2
+[15:34:27] [Server thread/WARN]: [Essentials] Beginning Adventure locale file conversion.
+[15:34:27] [Server thread/ERROR]: [Essentials] You are running an unsupported server version!
+[15:34:27] [Server thread/INFO]: [Essentials] Creating config from template: plugins/Essentials/config.yml
+[15:34:27] [Server thread/WARN]: [Essentials] Missing userdata folder, aborting
+[15:34:27] [Server thread/INFO]: [Essentials] Creating config from template: plugins/Essentials/kits.yml
+[15:34:27] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
+[15:34:27] [Server thread/INFO]: [Essentials] No kits found to migrate.
+[15:34:27] [Server thread/INFO]: [Essentials] Starting Essentials ban format conversion
+[15:34:27] [Server thread/INFO]: [Essentials] Attempting to migrate ignore list to UUIDs
+[15:34:27] [Server thread/INFO]: [Essentials] Attempting to migrate legacy userdata keys to Configurate
+[15:34:27] [Server thread/INFO]: [Essentials] Done converting random teleport config.
+[15:34:27] [Server thread/INFO]: [Essentials] Creating config from template: plugins/Essentials/worth.yml
+[15:34:27] [Server thread/INFO]: [Essentials] Selected 1.17.1+ World Info Provider as the provider for WorldInfoProvider
+[15:34:27] [Server thread/INFO]: [Essentials] Selected Paper Tick Count Provider as the provider for TickCountProvider
+[15:34:27] [Server thread/INFO]: [Essentials] Selected 1.20.4+ Damage Event Provider as the provider for DamageEventProvider
+[15:34:27] [Server thread/INFO]: [Essentials] Selected 1.11+ Item Unbreakable Provider as the provider for ItemUnbreakableProvider
+[15:34:27] [Server thread/INFO]: [Essentials] Selected 1.20.5+ Banner Data Provider as the provider for BannerDataProvider
+[15:34:27] [Server thread/INFO]: [Essentials] Selected 1.12.2+ Player Locale Provider as the provider for PlayerLocaleProvider
+[15:34:27] [Server thread/INFO]: [Essentials] Selected 1.21+ InventoryView Interface ABI Provider as the provider for InventoryViewProvider
+[15:34:27] [Server thread/INFO]: [Essentials] Selected Reflection Online Mode Provider as the provider for OnlineModeProvider
+[15:34:27] [Server thread/INFO]: [Essentials] Selected Paper Known Commands Provider as the provider for KnownCommandsProvider
+[15:34:27] [Server thread/INFO]: [Essentials] Selected Reflection Formatted Command Alias Provider as the provider for FormattedCommandAliasProvider
+[15:34:27] [Server thread/INFO]: [Essentials] Selected 1.8.3+ Spawner Item Provider as the provider for SpawnerItemProvider
+[15:34:27] [Server thread/INFO]: [Essentials] Selected 1.12+ Spawner Block Provider as the provider for SpawnerBlockProvider
+[15:34:27] [Server thread/INFO]: [Essentials] Selected 1.21.4+ Sync Commands Provider as the provider for SyncCommandsProvider
+[15:34:27] [Server thread/INFO]: [Essentials] Selected 1.14.4+ Persistent Data Container Provider as the provider for PersistentDataProvider
+[15:34:27] [Server thread/INFO]: [Essentials] Selected Paper Serialization Provider as the provider for SerializationProvider
+[15:34:27] [Server thread/INFO]: [Essentials] Selected 1.20.6+ Potion Meta Provider as the provider for PotionMetaProvider
+[15:34:27] [Server thread/INFO]: [Essentials] Selected Paper Biome Key Provider as the provider for BiomeKeyProvider
+[15:34:27] [Server thread/INFO]: [Essentials] Selected 1.14+ Sign Data Provider as the provider for SignDataProvider
+[15:34:27] [Server thread/INFO]: [Essentials] Selected Paper Container Provider as the provider for ContainerProvider
+[15:34:27] [Server thread/INFO]: [Essentials] Selected Legacy Biome Name Provider as the provider for BiomeNameProvider
+[15:34:27] [Server thread/INFO]: [Essentials] Selected 1.13+ Spawn Egg Provider as the provider for SpawnEggProvider
+[15:34:27] [Server thread/INFO]: [Essentials] Selected Paper Server State Provider as the provider for ServerStateProvider
+[15:34:27] [Server thread/INFO]: [Essentials] Selected Paper Material Tag Provider as the provider for MaterialTagProvider
+[15:34:28] [Server thread/INFO]: [Essentials] Creating config from template: plugins/Essentials/tpr.yml
+[15:34:28] [Server thread/INFO]: [Essentials] Loaded 43880 items from items.json.
+[15:34:28] [Server thread/INFO]: [Essentials] Creating config from template: plugins/Essentials/custom_items.yml
+[15:34:28] [Server thread/INFO]: [Essentials] Using locale en
+[15:34:28] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
+[15:34:29] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
+[15:34:29] [Server thread/INFO]: [Vault] [Economy] Essentials Economy hooked.
+[15:34:29] [Server thread/INFO]: [Essentials] Using Vault based permissions (PermissionsEx)
+[15:34:29] [Server thread/INFO]: [ViaRewind-Legacy-Support] Enabling ViaRewind-Legacy-Support v1.5.2
+[15:34:29] [Server thread/INFO]: [PermissionsEx] Enabling PermissionsEx v1.23.4*
+[15:34:29] [Server thread/INFO]: [PermissionsEx] Initializing file backend
+[15:34:29] [Server thread/INFO]: [PermissionsEx] Permissions file successfully reloaded
+[15:34:29] [Server thread/INFO]: [Vault][Permission] PermissionsEx hooked.
+[15:34:29] [Server thread/INFO]: [Vault] [Vault][Chat] PermissionsEx_Chat hooked.
+[15:34:29] [Server thread/INFO]: [EssentialsChat] Enabling EssentialsChat v2.21.2
+[15:34:29] [Server thread/INFO]: [EssentialsChat] Starting Metrics. Opt-out using the global bStats config.
+[15:34:29] [Server thread/INFO]: [IridiumSkyblock] Enabling IridiumSkyblock v4.1.5-b2
+[15:34:30] [Thread-6/WARN]: [PermissionsEx] The updater could not find any files for the project id 31279
+[15:34:30] [Server thread/INFO]: Preparing start region for dimension minecraft:iridiumskyblock
+[15:34:30] [Server thread/INFO]: Preparing spawn area: 0%
+[15:34:30] [Server thread/INFO]: Preparing spawn area: 2%
+[15:34:31] [Server thread/INFO]: Time elapsed: 995 ms
+[15:34:31] [Server thread/INFO]: Preparing start region for dimension minecraft:iridiumskyblock_nether
+[15:34:31] [Server thread/INFO]: Preparing spawn area: 0%
+[15:34:31] [Server thread/INFO]: Time elapsed: 425 ms
+[15:34:31] [Server thread/INFO]: Preparing start region for dimension minecraft:iridiumskyblock_the_end
+[15:34:31] [Server thread/INFO]: Preparing spawn area: 0%
+[15:34:32] [Server thread/INFO]: Time elapsed: 411 ms
+[15:34:32] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'IridiumSkyblock_the_end'
+[15:34:32] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'IridiumSkyblock_the_end'
+[15:34:32] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'IridiumSkyblock_the_end'
+[15:34:32] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'IridiumSkyblock_the_end' in 0.00s
+[15:34:32] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'IridiumSkyblock_the_end'
+[15:34:32] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'IridiumSkyblock_the_end'
+[15:34:32] [Server thread/INFO]: [NBTAPI] [NBTAPI] Found Minecraft: 1.21.4! Trying to find NMS support
+[15:34:32] [Server thread/INFO]: [NBTAPI] [NBTAPI] NMS support 'MC1_21_R3' loaded!
+[15:34:32] [Server thread/INFO]: [NBTAPI] [NBTAPI] Using the plugin 'IridiumSkyblock' to create a bStats instance!
+[15:34:33] [Server thread/INFO]: Preparing start region for dimension minecraft:iridiumskyblock_the_end
+[15:34:33] [Server thread/INFO]: Preparing spawn area: 0%
+[15:34:33] [Server thread/INFO]: Time elapsed: 83 ms
+[15:34:33] [Server thread/WARN]: [IridiumSkyblock] Configuration error, selected paster [worldedit] is not available, available choices are [internalAsync]
+[15:34:34] [Server thread/INFO]: [IridiumSkyblock] -------------------------------
+[15:34:34] [Server thread/INFO]: [IridiumSkyblock] 
+[15:34:34] [Server thread/INFO]: [IridiumSkyblock] IridiumSkyblock Enabled!
+[15:34:34] [Server thread/INFO]: [IridiumSkyblock] 
+[15:34:34] [Server thread/INFO]: [IridiumSkyblock] -------------------------------
+[15:34:34] [Server thread/INFO]: [spark] Starting background profiler...
+[15:34:36] [Server thread/INFO]: Done preparing level "world" (43.812s)
+[15:34:36] [Server thread/INFO]: Running delayed init tasks
+[15:34:36] [Server thread/INFO]: [Essentials] Essentials found a compatible payment resolution method: Vault Compatibility Layer (v1.7.3-b131)!
+[15:34:36] [Craft Scheduler Thread - 9 - Vault/INFO]: [Vault] Checking for Updates ... 
+[15:34:36] [Craft Scheduler Thread - 5 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor.
+[15:34:36] [Craft Scheduler Thread - 6 - Essentials/INFO]: [Essentials] Fetching version information...
+[15:34:37] [Craft Scheduler Thread - 9 - Vault/INFO]: [Vault] No new version available
+[15:34:37] [Server thread/INFO]: Done (96.114s)! For help, type "help"
+[15:41:36] [User Authenticator #0/INFO]: UUID of player Michaelb is 27f62e87-5dc4-37e7-ac4b-fdd67d7585c1
+[15:41:37] [Netty Epoll Server IO #1/WARN]: [ViaBackwards] (1.17->1.16.4) Increased world height is NOT SUPPORTED for 1.16 players and below. They will see a void below y 0 and above 256. You can enable the `bedrock-at-y-0` config option to replace the air with a bedrock layer.
+[15:41:37] [Server thread/INFO]: Michaelb joined the game
+[15:41:37] [Server thread/INFO]: Michaelb[/[0:0:0:0:0:0:0:1]:56570] logged in with entity id 21 at ([world]-66.5, 109.0, 13.5)
+[15:41:38] [Server thread/WARN]: [Essentials] File motd.txt does not exist. Creating one for you.
+[15:41:41] [Server thread/INFO]: Michaelb issued server command: /god
+[15:41:49] [Server thread/INFO]: Michaelb issued server command: /help
+[15:41:58] [Server thread/INFO]: Michaelb issued server command: /effect
+[15:43:21] [Server thread/INFO]: Michaelb lost connection: Timed out
+[15:43:21] [Server thread/INFO]: Michaelb left the game
+[15:54:34] [User Authenticator #1/INFO]: UUID of player Michaelb is 27f62e87-5dc4-37e7-ac4b-fdd67d7585c1
+[15:54:34] [Server thread/INFO]: Michaelb joined the game
+[15:54:34] [Server thread/INFO]: Michaelb[/[0:0:0:0:0:0:0:1]:48218] logged in with entity id 613 at ([world]-66.5, 109.0, 13.5)
+[15:54:56] [Server thread/INFO]: Michaelb issued server command: /locate structure minecraft:ancient_city
+[15:54:56] [Server thread/INFO]: Locating element minecraft:ancient_city took 3 ms
+[15:56:19] [Server thread/INFO]: Michaelb lost connection: Timed out
+[15:56:19] [Server thread/INFO]: Michaelb left the game
+[16:10:40] [User Authenticator #2/INFO]: UUID of player Michaelb is 27f62e87-5dc4-37e7-ac4b-fdd67d7585c1
+[16:10:41] [Server thread/INFO]: Michaelb joined the game
+[16:10:41] [Server thread/INFO]: Michaelb[/[0:0:0:0:0:0:0:1]:47198] logged in with entity id 756 at ([world]-66.5, 109.0, 13.5)
+[16:10:56] [Server thread/INFO]: Michaelb issued server command: /locate structure ancient_city
+[16:10:56] [Server thread/INFO]: Locating element minecraft:ancient_city took 0 ms
+[16:10:59] [Server thread/INFO]: Michaelb issued server command: /tp @s -304 ~ 16
+[16:11:06] [Server thread/INFO]: Michaelb issued server command: /tp Michaelb -304 ~ 16
+[16:11:18] [Server thread/INFO]: Michaelb issued server command: /gmc
+[16:11:24] [Server thread/INFO]: Michaelb issued server command: /gmsp
+[16:11:27] [Server thread/INFO]: Michaelb issued server command: /gmc
+[16:11:36] [Server thread/INFO]: Michaelb issued server command: /gmsp
+[16:12:04] [Server thread/INFO]: Michaelb issued server command: /locate structure minecraft:pillager_outpost
+[16:12:04] [Server thread/INFO]: Locating element minecraft:pillager_outpost took 220 ms
+[16:12:07] [Server thread/INFO]: Michaelb issued server command: /tp @s 352 ~ 368
+[16:12:12] [Server thread/INFO]: Michaelb issued server command: /tp Michaelb 352 ~ 368
+[16:12:53] [Server thread/INFO]: Michaelb lost connection: Disconnected
+[16:12:53] [Server thread/INFO]: Michaelb left the game
