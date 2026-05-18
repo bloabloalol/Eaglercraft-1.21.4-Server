@@ -1,0 +1,166 @@
+[13:24:28] [ServerMain/INFO]: [bootstrap] Running Java 25 (OpenJDK 64-Bit Server VM 25.0.2+10-LTS; Microsoft Microsoft-13053558) on Linux 6.8.0-1044-azure (amd64)
+[13:24:28] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.4-224-main@0cf7315 (2025-04-07T12:01:39Z) for Minecraft 1.21.4
+[13:24:28] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[13:24:31] [ServerMain/INFO]: [PluginInitializerManager] Initialized 8 plugins
+[13:24:31] [ServerMain/INFO]: [PluginInitializerManager] Paper plugins (1):
+ - EconomyShopGUI (6.16.3)
+[13:24:31] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (7):
+ - Essentials (2.21.2), Oneblock (1.4.7f), Vault (1.7.3-b131), ViaBackwards (5.9.2-SNAPSHOT), ViaRewind (4.1.1), ViaRewind-Legacy-Support (1.5.2), ViaVersion (5.9.2-SNAPSHOT)
+[13:24:41] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[13:24:46] [ServerMain/INFO]: Loaded 1370 recipes
+[13:24:46] [ServerMain/INFO]: Loaded 1481 advancements
+[13:24:46] [ServerMain/INFO]: [MCTypeRegistry] Initialising converters for DataConverter...
+[13:24:46] [ServerMain/INFO]: [MCTypeRegistry] Finished initialising converters for DataConverter in 308.5ms
+[13:24:46] [Server thread/INFO]: Starting minecraft server version 1.21.4
+[13:24:46] [Server thread/INFO]: Loading properties
+[13:24:46] [Server thread/INFO]: This server is running Paper version 1.21.4-224-main@0cf7315 (2025-04-07T12:01:39Z) (Implementing API version 1.21.4-R0.1-SNAPSHOT)
+[13:24:46] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[13:24:47] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[13:24:47] [Server thread/INFO]: Using 4 threads for Netty based IO
+[13:24:48] [Server thread/INFO]: [MoonriseCommon] Paper is using 1 worker threads, 1 I/O threads
+[13:24:48] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using population gen parallelism: true
+[13:24:48] [Server thread/INFO]: Default game type: SURVIVAL
+[13:24:48] [Server thread/INFO]: Generating keypair
+[13:24:49] [Server thread/INFO]: Starting Minecraft server on *:25565
+[13:24:49] [Server thread/INFO]: Using epoll channel type
+[13:24:49] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[13:24:49] [Server thread/INFO]: Paper: Using OpenSSL 3.x.x (Linux x86_64) cipher from Velocity.
+[13:24:51] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v5.9.2-SNAPSHOT
+[13:24:51] [Server thread/INFO]: [ViaVersion] ViaVersion 5.9.2-SNAPSHOT is now loaded. Registering protocol transformers and injecting...
+[13:24:52] [Via-Mappingloader-1/INFO]: [ViaVersion] Loading block connection mappings ...
+[13:24:53] [Server thread/INFO]: [ViaBackwards] Loading translations...
+[13:24:53] [Server thread/INFO]: [ViaBackwards] Registering protocols...
+[13:24:54] [Server thread/INFO]: [ViaRewind] Registering protocols...
+[13:24:54] [Server thread/INFO]: [ViaBackwards] Loading server plugin ViaBackwards v5.9.2-SNAPSHOT
+[13:24:54] [Server thread/INFO]: [Vault] Loading server plugin Vault v1.7.3-b131
+[13:24:54] [Server thread/INFO]: [ViaRewind] Loading server plugin ViaRewind v4.1.1
+[13:24:54] [Server thread/INFO]: [Essentials] Loading server plugin Essentials v2.21.2
+[13:24:54] [Server thread/INFO]: [Oneblock] Loading server plugin Oneblock v1.4.7f
+[13:24:54] [Server thread/INFO]: [ViaRewind-Legacy-Support] Loading server plugin ViaRewind-Legacy-Support v1.5.2
+[13:24:54] [Server thread/INFO]: [EconomyShopGUI] Loading server plugin EconomyShopGUI v6.16.3
+[13:24:54] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[13:24:54] [Server thread/INFO]: [Vault] Enabling Vault v1.7.3-b131
+[13:24:54] [Server thread/INFO]: [Vault] [Economy] Essentials Economy found: Waiting
+[13:24:55] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
+[13:24:55] [Server thread/INFO]: [Vault] Enabled Version 1.7.3-b131
+[13:24:55] [Server thread/INFO]: [ViaRewind] Enabling ViaRewind v4.1.1
+[13:24:55] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[13:24:55] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[13:24:55] [Server thread/WARN]: Whilst this makes it possible to use BungeeCord, unless access to your server is properly restricted, it also opens up the ability for hackers to connect with any username they choose.
+[13:24:55] [Server thread/WARN]: Please see http://www.spigotmc.org/wiki/firewall-guide/ for further information.
+[13:24:55] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[13:24:55] [Server thread/INFO]: Preparing level "world"
+[13:24:56] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[13:24:57] [Server thread/INFO]: Preparing spawn area: 0%
+[13:24:57] [Server thread/INFO]: Preparing spawn area: 0%
+[13:24:57] [Server thread/INFO]: Preparing spawn area: 2%
+[13:24:58] [Server thread/INFO]: Preparing spawn area: 2%
+[13:24:59] [Server thread/INFO]: Preparing spawn area: 2%
+[13:24:59] [Server thread/INFO]: Preparing spawn area: 2%
+[13:24:59] [Server thread/INFO]: Preparing spawn area: 2%
+[13:24:59] [Server thread/INFO]: Time elapsed: 3063 ms
+[13:24:59] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[13:24:59] [Server thread/INFO]: Preparing spawn area: 0%
+[13:24:59] [Server thread/INFO]: Preparing spawn area: 91%
+[13:24:59] [Server thread/INFO]: Time elapsed: 507 ms
+[13:24:59] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[13:25:00] [Server thread/INFO]: Preparing spawn area: 0%
+[13:25:00] [Server thread/INFO]: Time elapsed: 348 ms
+[13:25:00] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v5.9.2-SNAPSHOT
+[13:25:00] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.21.4 (769)
+[13:25:00] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v5.9.2-SNAPSHOT
+[13:25:00] [Server thread/INFO]: [Essentials] Enabling Essentials v2.21.2
+[13:25:01] [Server thread/ERROR]: [Essentials] You are running an unsupported server version!
+[13:25:02] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
+[13:25:02] [Server thread/INFO]: [Essentials] No kits found to migrate.
+[13:25:02] [Server thread/INFO]: [Essentials] Selected 1.13+ Spawn Egg Provider as the provider for SpawnEggProvider
+[13:25:02] [Server thread/INFO]: [Essentials] Selected Paper Biome Key Provider as the provider for BiomeKeyProvider
+[13:25:02] [Server thread/INFO]: [Essentials] Selected Paper Server State Provider as the provider for ServerStateProvider
+[13:25:02] [Server thread/INFO]: [Essentials] Selected 1.14+ Sign Data Provider as the provider for SignDataProvider
+[13:25:03] [Server thread/INFO]: [Essentials] Selected Paper Material Tag Provider as the provider for MaterialTagProvider
+[13:25:03] [Server thread/INFO]: [Essentials] Selected Reflection Online Mode Provider as the provider for OnlineModeProvider
+[13:25:03] [Server thread/INFO]: [Essentials] Selected Reflection Formatted Command Alias Provider as the provider for FormattedCommandAliasProvider
+[13:25:03] [Server thread/INFO]: [Essentials] Selected 1.21.4+ Sync Commands Provider as the provider for SyncCommandsProvider
+[13:25:03] [Server thread/INFO]: [Essentials] Selected 1.20.6+ Potion Meta Provider as the provider for PotionMetaProvider
+[13:25:03] [Server thread/INFO]: [Essentials] Selected 1.14.4+ Persistent Data Container Provider as the provider for PersistentDataProvider
+[13:25:03] [Server thread/INFO]: [Essentials] Selected Paper Container Provider as the provider for ContainerProvider
+[13:25:03] [Server thread/INFO]: [Essentials] Selected 1.12.2+ Player Locale Provider as the provider for PlayerLocaleProvider
+[13:25:03] [Server thread/INFO]: [Essentials] Selected Paper Serialization Provider as the provider for SerializationProvider
+[13:25:03] [Server thread/INFO]: [Essentials] Selected 1.21+ InventoryView Interface ABI Provider as the provider for InventoryViewProvider
+[13:25:03] [Server thread/INFO]: [Essentials] Selected Legacy Biome Name Provider as the provider for BiomeNameProvider
+[13:25:03] [Server thread/INFO]: [Essentials] Selected 1.20.4+ Damage Event Provider as the provider for DamageEventProvider
+[13:25:03] [Server thread/INFO]: [Essentials] Selected 1.17.1+ World Info Provider as the provider for WorldInfoProvider
+[13:25:03] [Server thread/INFO]: [Essentials] Selected 1.12+ Spawner Block Provider as the provider for SpawnerBlockProvider
+[13:25:03] [Server thread/INFO]: [Essentials] Selected 1.8.3+ Spawner Item Provider as the provider for SpawnerItemProvider
+[13:25:03] [Server thread/INFO]: [Essentials] Selected Paper Known Commands Provider as the provider for KnownCommandsProvider
+[13:25:03] [Server thread/INFO]: [Essentials] Selected 1.20.5+ Banner Data Provider as the provider for BannerDataProvider
+[13:25:03] [Server thread/INFO]: [Essentials] Selected 1.11+ Item Unbreakable Provider as the provider for ItemUnbreakableProvider
+[13:25:03] [Server thread/INFO]: [Essentials] Selected Paper Tick Count Provider as the provider for TickCountProvider
+[13:25:04] [Server thread/INFO]: [Essentials] Loaded 43880 items from items.json.
+[13:25:04] [Server thread/INFO]: [Essentials] Using locale en
+[13:25:05] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
+[13:25:05] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
+[13:25:05] [Server thread/INFO]: [Vault] [Economy] Essentials Economy hooked.
+[13:25:05] [Server thread/INFO]: [Essentials] Using superperms-based permissions.
+[13:25:05] [Server thread/INFO]: [Oneblock] Enabling Oneblock v1.4.7f
+[13:25:05] [Server thread/INFO]: [Oneblock] 
+█▀█ ░░░░ ░░░ █▀▄ ░░░ ░░░ ░░░ ░░░
+█░█ █▄░█ █▀▀ █▄▀ █░░ █▀█ █▀▀ █▄▀
+█▄█ █░▀█ ██▄ █▄▀ █▄▄ █▄█ █▄▄ █░█
+
+by MrMarL
+[13:25:05] [Server thread/INFO]: [Oneblock] Custom block support mode: basic
+[13:25:05] [Server thread/INFO]: [Oneblock] Database usage is turned off in the configuration
+[13:25:05] [Server thread/INFO]: [Oneblock] Using JSON storage
+[13:25:06] [Server thread/INFO]: [Oneblock] Loaded 2 general rewards and 0 level-specific reward sets
+[13:25:06] [Server thread/INFO]: [ViaRewind-Legacy-Support] Enabling ViaRewind-Legacy-Support v1.5.2
+[13:25:06] [Server thread/INFO]: [EconomyShopGUI] Enabling EconomyShopGUI v6.16.3
+[13:25:06] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Initializing paper meta...
+[13:25:06] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Using lang-en.yml as language file
+[13:25:06] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Completed loading 16 section configs from /sections/
+[13:25:07] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Completed loading 16 shop configs from /shops/
+[13:25:07] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Updating Shop settings...
+[13:25:07] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Successfully hooked into Vault and using EssentialsX Economy as economy provider
+[13:25:07] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Completed loading 1 economy provider(s) for all 14 shop sections.
+[13:25:07] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Using minecraft version 1.21.4...
+[13:25:07] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Spawner provider set to AUTO in config
+[13:25:07] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Automatically searching for compatible spawner provider....
+[13:25:07] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Failed to automatically find compatible spawner provider, using default...
+[13:25:07] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Debug mode is enabled.
+[13:25:07] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Loading all items...
+[13:25:09] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Initialized - Took 3158ms to complete
+[13:25:09] [ESGUI_UTIL_THREAD #0/INFO]: [EconomyShopGUI] [INFO]: There is an update available for EconomyShopGUI, you are running v6.16.3 but found v7.0.3.
+[13:25:09] [ESGUI_UTIL_THREAD #0/INFO]: [EconomyShopGUI] [INFO]: Download at: https://www.spigotmc.org/resources/economyshopgui.69927/
+[13:25:10] [Server thread/INFO]: [spark] Starting background profiler...
+[13:25:12] [Server thread/INFO]: Done preparing level "world" (16.838s)
+[13:25:12] [Server thread/INFO]: Running delayed init tasks
+[13:25:12] [Craft Scheduler Thread - 1 - Essentials/INFO]: [Essentials] Fetching version information...
+[13:25:12] [Server thread/INFO]: [Essentials] Essentials found a compatible payment resolution method: Vault Compatibility Layer (v1.7.3-b131)!
+[13:25:12] [Craft Scheduler Thread - 2 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor.
+[13:25:12] [Server thread/INFO]: [ViaVersion] You are running a development version of the plugin, please report any bugs to GitHub.
+[13:25:12] [Server thread/INFO]: Done (45.781s)! For help, type "help"
+[13:25:12] [Craft Scheduler Thread - 3 - Vault/INFO]: [Vault] Checking for Updates ... 
+[13:25:12] [Craft Scheduler Thread - 3 - Vault/INFO]: [Vault] No new version available
+[13:25:40] [User Authenticator #0/INFO]: UUID of player Michaelb is 27f62e87-5dc4-37e7-ac4b-fdd67d7585c1
+[13:25:41] [Netty Epoll Server IO #1/WARN]: [ViaBackwards] (1.17->1.16.4) Increased world height is NOT SUPPORTED for 1.16 players and below. They will see a void below y 0 and above 256. You can enable the `bedrock-at-y-0` config option to replace the air with a bedrock layer.
+[13:25:41] [Server thread/INFO]: Michaelb joined the game
+[13:25:42] [Server thread/INFO]: Michaelb[/[0:0:0:0:0:0:0:1]:35332] logged in with entity id 116 at ([world]-522.335984695019, 72.4957015128699, -355.0887974578673)
+[13:25:46] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2608ms or 52 ticks behind
+[13:25:47] [Server thread/INFO]: Michaelb issued server command: /gms
+[13:25:52] [Server thread/INFO]: Michaelb issued server command: /ob
+[13:25:55] [Server thread/INFO]: Michaelb issued server command: /ob set
+[13:25:59] [Server thread/INFO]: Michaelb issued server command: /gmc
+[13:26:12] [Server thread/INFO]: Michaelb issued server command: /ob set
+[13:26:15] [Server thread/INFO]: Michaelb issued server command: /ob
+[13:26:17] [Server thread/INFO]: Michaelb issued server command: /gms
+[13:26:33] [Server thread/INFO]: Michaelb issued server command: /gmc
+[13:26:45] [Server thread/INFO]: Michaelb issued server command: /ob del
+[13:26:46] [Server thread/INFO]: Michaelb issued server command: /ob delete
+[13:26:49] [Server thread/INFO]: Michaelb issued server command: /ob
+[13:26:51] [Server thread/INFO]: Michaelb issued server command: /ob help
+[13:27:03] [Server thread/INFO]: Michaelb issued server command: /hlep
+[13:27:05] [Server thread/INFO]: Michaelb issued server command: /help
+[13:27:08] [Server thread/INFO]: Michaelb issued server command: /help oneblock
+[13:27:13] [Server thread/INFO]: Michaelb issued server command: /oneblock
+[13:27:14] [Server thread/INFO]: Michaelb issued server command: /oneblock help
+[13:27:18] [Server thread/INFO]: Michaelb issued server command: /ob idreset

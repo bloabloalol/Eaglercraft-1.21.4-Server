@@ -1,0 +1,30 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 0:0:0:0:0:0:0:1
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1779107777044
+  login: 1779110742152
+money: '0'
+last-account-name: Michaelb
+logoutlocation:
+  world: 627eaf86-1dda-496d-91c1-f1f6fd2493dc
+  world-name: world
+  x: -522.335984695019
+  y: 72.4957015128699
+  z: -355.0887974578673
+  yaw: -171.0000457763672
+  pitch: 20.700000762939453
