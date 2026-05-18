@@ -1,18 +1,18 @@
 Eaglercraft 1.21.4 Server by Ryan Norshare !
 <br>
-**Step 1:** Installing some stuff :D in a new terminal tyoe `sudo apt install default-jdk && sudo apt install default-jre -y` 
+**Step 1:** In the terminal type `bash startup.sh` 
 <br>
 <br>
-**Step 2:** Open two new terminals type `cd server && sudo java -jar server.jar` in the first and in the second type `cd bungee && sudo java -jar bungee.jar` 
+**Step 2:** Click on the ports tab and right click 8081. go to ports visability, and select public
 <br>
 <br>
-**Step 3:** Forward Ports 8081 and 25565 and make port 8081 Public and the link next to it is your server ip 
+**Step 3:** right click it again, and select copy local address.
 <br>
 <br>
-**Step 4:** replace "https://" with "wss://" 
+**Step 4:** open a eaglercraft client and select multiplayer, then add server 
 <br>
 <br>
-**Step 5 (Optional):** to add plugins go to server>plugins and upload them there and then restart your server with `stop` then `sudo java -jar server.jar`  
+** paste in the local address, and replace "https://" with "wss://". then you can join 
 <br>
 <br>
-Note: Remember this server is free and so it is not going to be online 24/7 or lag free so i recommend installing the plugin "Clear Lag" which automatically clears entitys
+To stop your server, type stop in the terminal
