@@ -1,6 +1,8 @@
-Eaglercraft 1.21.4 Server by Ryan Norshare !
+Eaglercraft 1.21.4 Server by Ryan Norshare ! - simplified by Bloabloalol
+
+YOU WILL NEED A GITHUB ACCOUNT TO RUN THIS
 <br>
-**Step 1:** In the terminal type `bash startup.sh` 
+**Step 1:** press "," to open a codespace. Once it finishes loading, type `bash startup.sh` into the terminal (the area at the bottom)
 <br>
 <br>
 **Step 2:** Click on the ports tab and right click 8081. go to ports visability, and select public
