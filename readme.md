@@ -17,5 +17,5 @@ YOU WILL NEED A GITHUB ACCOUNT TO RUN THIS
 ** paste in the local address, and replace "https://" with "wss://". then you can join 
 <br>
 <br>
-if you want to make yourself an operator, once the server is started and you  have joined, go back to the terminal and type "op yourname"
+if you want to make yourself an operator, once the server is started and you  have joined, go back to the terminal and type "op yournamehere"
 To stop your server, type stop in the terminal
