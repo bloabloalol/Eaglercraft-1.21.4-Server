@@ -1,0 +1,50 @@
+settings:
+  size:
+    name: Size
+  discard-chance-on-air-exposure:
+    name: Discard Chance On Air Exposure
+  count:
+    name: Count
+  height:
+    name: Height
+  chance:
+    name: Chance
+  min-inclusive:
+    name: Min Inclusive
+  max-inclusive:
+    name: Max Inclusive
+  max-water-depth:
+    name: Max Water Depth
+  activate:
+    name: Activate
+  targets:
+    name: Targets
+value-settings:
+  min-inclusive:
+    name: Min Inclusive
+  max-inclusive:
+    name: Max Inclusive
+  plateau:
+    name: Plateau
+  base:
+    name: Base
+  data:
+    name: Data
+  weight:
+    name: Weight
+  target-block-state:
+    name: Target Block State
+  state:
+    name: State
+  target:
+    name: Target
+  entry:
+    name: Entry
+  block:
+    name: Block
+  block-state:
+    name: Block State
+  probability:
+    name: Probability
+  tag:
+    name: Tag

@@ -1,0 +1,48 @@
+{
+  "placement_modifier_configurations": [
+    {
+      "activate": {
+        "value": true,
+        "activate_type": "feature:fixed_boolean"
+      },
+      "placement_modifier_type": "feature:activation"
+    },
+    {
+      "count": {
+        "min_inclusive": {
+          "value": 0.0,
+          "min_inclusive_type": "feature:fixed_double_to_integer"
+        },
+        "max_inclusive": {
+          "value": 9.0,
+          "max_inclusive_type": "feature:fixed_double_to_integer"
+        },
+        "count_type": "feature:biased_to_bottom_integer"
+      },
+      "placement_modifier_type": "minecraft:count"
+    },
+    {
+      "height": {
+        "min_inclusive": {
+          "base": {
+            "value": 4.0,
+            "base_type": "feature:fixed_double_to_integer"
+          },
+          "min_inclusive_type": "feature:above_bottom_offset_integer"
+        },
+        "max_inclusive": {
+          "base": {
+            "value": 4.0,
+            "base_type": "feature:fixed_double_to_integer"
+          },
+          "max_inclusive_type": "feature:below_top_offset_integer"
+        },
+        "height_range_type": "feature:uniform_integer"
+      },
+      "placement_modifier_type": "minecraft:height_range"
+    }
+  ],
+  "feature_generator_configuration": {
+    "feature_generator_type": "minecraft:glowstone_blob"
+  }
+}

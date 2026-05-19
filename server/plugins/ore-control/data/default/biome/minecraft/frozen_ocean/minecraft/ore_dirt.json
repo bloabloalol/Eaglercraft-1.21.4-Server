@@ -1,0 +1,51 @@
+{
+  "placement_modifier_configurations": [
+    {
+      "activate": {
+        "value": true,
+        "activate_type": "feature:fixed_boolean"
+      },
+      "placement_modifier_type": "feature:activation"
+    },
+    {
+      "count": {
+        "value": 7.0,
+        "count_type": "feature:fixed_double_to_integer"
+      },
+      "placement_modifier_type": "minecraft:count"
+    },
+    {
+      "height": {
+        "min_inclusive": {
+          "value": 0.0,
+          "min_inclusive_type": "feature:fixed_double_to_integer"
+        },
+        "max_inclusive": {
+          "value": 160.0,
+          "max_inclusive_type": "feature:fixed_double_to_integer"
+        },
+        "height_range_type": "feature:uniform_integer"
+      },
+      "placement_modifier_type": "minecraft:height_range"
+    }
+  ],
+  "feature_generator_configuration": {
+    "targets": {
+      "value": [
+        {
+          "rule_test": {
+            "value": "minecraft:base_stone_overworld",
+            "rule_test_key": "minecraft:tag_match"
+          },
+          "block_data": "minecraft:dirt"
+        }
+      ],
+      "target_type": "feature:fixed_target_list"
+    },
+    "size": {
+      "value": 33.0,
+      "size_type": "feature:fixed_double_to_integer"
+    },
+    "feature_generator_type": "minecraft:ore"
+  }
+}
